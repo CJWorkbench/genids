@@ -1,0 +1,12 @@
+id_name: genids
+name: Generate ID column
+description: Create a column with unique IDs.
+icon: number
+category: Clean
+help_url: modules/clean/genids
+parameters:
+  - id_name: outcolname
+    name: Output column name
+    type: string
+    default: ID
+    placeholder: ID
