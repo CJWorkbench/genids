@@ -18,7 +18,7 @@ msgstr ""
 msgid "_spec.parameters.outcolname.default"
 msgstr ""
 
-#. default-message: This overwrote the '{column_name}' column, which already existed.
+#. default-message: This overwrote the "{column_name}" column, which already existed.
 #: genids.py:10
 msgid "warning.columnAlreadyExisted.message"
 msgstr ""

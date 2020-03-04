@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-04 12:36+0000\n"
+"POT-Creation-Date: 2020-03-04 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -36,5 +36,5 @@ msgstr "ID"
 
 #: genids.py:10
 msgid "warning.columnAlreadyExisted.message"
-msgstr "This overwrote the '{column_name}' column, which already existed."
+msgstr "This overwrote the \"{column_name}\" column, which already existed."
 

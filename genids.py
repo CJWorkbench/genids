@@ -9,7 +9,7 @@ def render(table, params):
     if outcolname in table.columns:
         result["error"] = i18n.trans(
             "warning.columnAlreadyExisted.message",
-            "This overwrote the '{column_name}' column, which already existed.",
+            'This overwrote the "{column_name}" column, which already existed.',
             {"column_name": outcolname},
         )
         del table[outcolname]
