@@ -1,0 +1,25 @@
+#. default-message: Generate ID column
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Create a column with unique IDs.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Output column name
+msgid "_spec.parameters.outcolname.name"
+msgstr ""
+
+#. default-message: ID
+msgid "_spec.parameters.outcolname.placeholder"
+msgstr ""
+
+#. default-message: ID
+msgid "_spec.parameters.outcolname.default"
+msgstr ""
+
+#. default-message: This overwrote the '{column_name}' column, which already existed.
+#: genids.py:10
+msgid "warning.columnAlreadyExisted.message"
+msgstr ""
+

@@ -11,5 +11,5 @@ setup(
     url="https://github.com/CJWorkbench/genids",
     packages=[""],
     py_modules=["genids"],
-    install_requires=["pandas==0.25.3"],
+    install_requires=["pandas==0.25.3", "cjwmodule>=1.4.0"],
 )

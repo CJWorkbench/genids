@@ -2,6 +2,7 @@ import unittest
 from genids import render
 import pandas as pd
 from pandas.testing import assert_frame_equal
+from cjwmodule.testing.i18n import i18n_message
 
 
 class RenderTest(unittest.TestCase):
@@ -28,7 +29,8 @@ class RenderTest(unittest.TestCase):
         result = render(pd.DataFrame({"A": [1], "B": [2]}), {"outcolname": "B"})
         self.assertEqual(result["column_formats"], {"B": "{:d}"})
         self.assertEqual(
-            result["error"], "This overwrote the 'B' column, which already existed."
+            result["error"],
+            i18n_message("warning.columnAlreadyExisted.message", {"column_name": "B"}),
         )
         assert_frame_equal(result["dataframe"], pd.DataFrame({"B": [1], "A": [1]}))
 
