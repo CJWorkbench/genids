@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-04 12:36+0000\n"
+"POT-Creation-Date: 2020-03-06 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -20,21 +20,21 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 msgid "_spec.name"
-msgstr ""
+msgstr "Δημιουργία στήλης αναγνωριστικού"
 
 msgid "_spec.description"
-msgstr ""
+msgstr "Δημιουργήστε στήλη με μοναδικά αναγνωριστικά."
 
 msgid "_spec.parameters.outcolname.name"
-msgstr ""
+msgstr "Όνομα στήλης εξόδου"
 
 msgid "_spec.parameters.outcolname.placeholder"
-msgstr ""
+msgstr "Αναγνωριστικό"
 
 msgid "_spec.parameters.outcolname.default"
-msgstr ""
+msgstr "Αναγνωριστικό"
 
 #: genids.py:10
 msgid "warning.columnAlreadyExisted.message"
-msgstr ""
+msgstr "Αντικαταστάθηκε η στήλη \"{column_name}\", η οποία ήδη υπήρχε."
 
